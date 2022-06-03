@@ -5,6 +5,10 @@ permalink: /questions/general-questions/index.html
 ---
 
 * What did you learn yesterday/this week?
+3rd Jun: CSS custom properties vs Sass variables
+CSS custom properties: native, can be redefined, can be accessed and manipulated with js. Drawback: IE not supported
+Sass variables: compile down to plain css on runtime, static.
+
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
 * When building a new web site or maintaining one, can you explain some techniques you have used to increase performance?
