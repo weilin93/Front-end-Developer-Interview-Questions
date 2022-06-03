@@ -5,7 +5,7 @@ permalink: /questions/general-questions/index.html
 ---
 
 * What did you learn yesterday/this week?
-3rd Jun: CSS custom properties vs Sass variables
+- 3rd Jun: CSS custom properties vs Sass variables
 CSS custom properties: native, can be redefined, can be accessed and manipulated with js. Drawback: IE not supported
 Sass variables: compile down to plain css on runtime, static.
 
