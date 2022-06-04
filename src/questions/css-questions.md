@@ -7,11 +7,11 @@ permalink: /questions/css-questions/index.html
 CSS is a declarative language where developer only describe the intention of the outcome, browser is the one who makes decision on final layout with the control of user (e.g resize window, change theme color, adjust font size, what device to display on)
 Simply put, we provide suggestions and options on look and feel, not to control. Final presentation is up to user. 
 
-* Explain Cascade
+1. Explain Cascade
 - Cascade is an algorithm process that takes in all different stylesheets (author, user, browser), resolve the conflicts between different CSS rules and declarations when there is more than one declaration on the element, then combine them into one final computed style on the browser where the property value from the origin with the highest precedence gets applied.
 
 
-* What is CSS selector specificity and how does it work?
+2. What is CSS selector specificity and how does it work?
 - User > Author > default Browser
 - The browser determines what styles to show on an element depending on the specificity of CSS rules. The rules are: 
 - Inline styles > IDs > Class > Elements (0,0,0,0) 
@@ -19,7 +19,7 @@ Simply put, we provide suggestions and options on look and feel, not to control.
 - (2,3,1,50) > (2,4,20,100)
 - *!important has the highest priority
 
-* What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+3. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 -
 
 * Describe Floats and how they work.
