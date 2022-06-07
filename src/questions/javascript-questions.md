@@ -38,6 +38,7 @@ permalink: /questions/javascript-questions/index.html
 * Explain the difference between synchronous and asynchronous functions.
 * What is event loop?
   * What is the difference between call stack and task queue?
+  * JS is a single-thread programming language, it has a single call stack which means that it only runs one thing at a time, line by line. This event loop is a loop that constantly monitoring call stack and task queue. Things like Ajax call, setTimeOut callback and DOM event callback get put into task queue, when the call stack is empty, things in task queue gets dequeued and pushed to call stack to be executed.
 * What are the differences between variables created using `let`, `var` or `const`?
 * What are the differences between ES6 class and ES5 function constructors?
 * Can you offer a use case for the new arrow `=>` function syntax? How does this new syntax differ from other functions?
