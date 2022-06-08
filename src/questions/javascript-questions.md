@@ -7,6 +7,11 @@ permalink: /questions/javascript-questions/index.html
 * Explain event delegation.
 * Explain how `this` works in JavaScript.
   * Can you give an example of one of the ways that working with `this` has changed in ES6?
+  * this is a special variable that holds value which depending on how the function is called. 
+     * If it's called as object method, "this" refers to the object value.
+     * In function, "this" equal to undefined if strict mode is on, else it refers to global object.
+     * Arrow functions dont get its own "this", instead it refers to "this" of its surrouding scope. 
+     * If .bind(), .call(), .apply() is applied, "this" refers to the argument that gets passed in to the method.
 * Explain how prototypal inheritance works.
 * What's the difference between a variable that is: `null`, `undefined` or undeclared?
   * How would you go about checking for any of these states?
